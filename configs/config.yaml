@@ -1,0 +1,18 @@
+# configs/config.yaml
+vision_encoder:
+  embedding_dim: 512
+  
+text_encoder:
+  embedding_dim: 512
+  
+fusion:
+  output_dim: 768
+  dropout: 0.1
+  
+num_concepts: 1000
+embedding_dim: 128
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 10
